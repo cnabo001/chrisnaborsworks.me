@@ -1,0 +1,139 @@
+﻿@charset "utf-8";
+
+/* page styles */
+body {
+    background: url('../img/18346732.jpg') fixed center;
+    background-size: cover;
+    /*background-position: center center;*/
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 1em;
+    color: antiquewhite;
+    background-color: #E5E5E5;
+}
+
+img {
+    object-position: center;
+    object-position: 50% 50%;
+
+}
+header {
+    background: rgb(149, 163, 168);
+    background: -moz-linear-gradient(top, rgba(0,0,0,1), rgb(149, 163, 168));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,1), rgba(149, 163, 168) );
+    background: -o-linear-gradient(top, rgba(0,0,0,1), rgba(149, 163, 168));
+    background: linear-gradient(top, rgba(0,0,0,1),rgba(6149, 163, 168));
+    box-shadow: 0 4px 2px -2px #e4e4fc;
+    padding-top: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1000;
+}
+h1, h2, h3, h4 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-weight: bold;
+	color:antiquewhite;
+	/*margin: .15em;*/
+	
+}
+h1 {
+	font-size: 1.5em;
+	text-shadow: 2px 2px antiquewhite;
+	margin-top: 0;
+}
+h2, h3{
+	font-size: 1em;
+}
+h4 {
+	font-size: .75em;
+	margin-bottom: .75em;
+}
+h6 {
+    font-size: 1em;
+    color: #626161;
+    text-shadow: 2px 2px antiquewhite;
+    font-family: Impact, Charcoal, sans-serif;
+}
+h7 {
+    font-size: 1em;
+    color: #626161;
+    font-family: Impact, Charcoal, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+table {
+width: 90%;	
+align-self:center;
+}
+
+table, th, td {
+    border: 1px solid #ffffff;
+    align-content:center;
+    text-align:center;
+    align-items:center;
+}
+
+
+footer {
+    background: rgb(149, 163, 168);
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgb(149, 163, 168));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(149, 163, 168));
+    background: -o-linear-gradient(bottom, rgba(0,0,0,1), rgba(149, 163, 168));
+    background: linear-gradient(bottom, rgba(0,0,0,1),rgba(149, 163, 168));
+    box-shadow: 0 4px -5px 5px  -5px #e4e4fc;
+    padding-top: 10px;
+    color: antiquewhite;
+    align-self: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1000;
+}
+
+.widget {
+    /*background-color: #ffffff;*/
+    background: radial-gradient(antiquewhite, #626161);
+    border-style: ridge;
+    border-color: black;
+    color: #0026ff;
+    position: sticky;
+    box-shadow: 4px 0px 4px 0px #e4e4fc;
+    /*margin-left: 30px;
+    margin-top: 50%!important;*/
+}
+
+.member{
+    background-color: transparent;
+    text-align:center;
+    color: white;
+}
+
+.stickposition{
+    position:fixed;
+    justify-content:flex-end!important;
+    align-items: flex-end!important;
+}
+
+.centerstuff {
+    margin-left: auto!important;
+    margin-right: auto!important;
+}
+
+.Containcenter {
+    text-align:center;
+    
+}
+
+.Containcenter > div {
+    margin: auto;
+}
+
+.coinmarketcap-currency-widget 
+{
+    border:none!important;
+    border-radius: 0px!important;
+}
+

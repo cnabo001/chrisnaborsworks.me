@@ -1,0 +1,26 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+nav a {
+	transition-property: all;
+	
+	-webkit-transition: -webkit-transform: .2s,
+						 background-color 1s ease-in .2s;
+						 
+	-moz-transition:  -moz-transform .2s,
+					   background-color 1s ease-in .2s;
+					   
+	-o-transition: -o-transform: .2s,
+					background-color 1s ease-in .2s;
+					
+	transition: transform .2s,
+				background-color 1s ease-in .2s;
+}
+    nav a:hover {
+        background-color: #ffd800;
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+    }
+

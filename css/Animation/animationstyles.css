@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+
+.logo {
+	animation: logoAnimation 10s;
+	
+	-moz-animation: logoAnimation 10s;
+	-webkit-animation: logoAnimation 10s;
+	-o-animation: logoAnimation 10s;
+		
+	width: 150px;
+	height: 150px;
+		
+	position: absolute;
+	top: -20px;
+	left: 0;	
+}
+
+@keyframes logoAnimation{
+	from {
+		animation: ease-in;
+			
+	}
+	50% {
+		transform:none	}
+		
+	to {
+		animation:ease-out;
+		
+	}
+}
+
+@-moz-keyframes logoAnimation{
+		from {
+		-moz-animation: ease-in;
+			
+	}
+	50% {
+		-moz-transform:none	}
+		
+	to {
+		-moz-animation:ease-out;
+		
+	}
+}
+@-webkit-keyframes logoAnimation{
+from {
+		-webkit-animation: ease-in;
+			
+	}
+	50% {
+		-webkit-transform:none	}
+		
+	to {
+		-webkit-animation:ease-out;
+		
+	}
+}
+@-o-keyframes logoAnimation{
+	from {
+		-o-animation: ease-in;
+			
+	}
+	50% {
+		-o-transform:none	}
+		
+	to {
+		-o-animation:ease-out;
+		
+	}
+}
+
+

@@ -1,0 +1,71 @@
+﻿@charset "utf-8";
+/* CSS Document */
+nav {
+list-style-type: none;
+margin-top: 1em;
+margin-bottom: 1em;
+clear: both;	
+}
+
+navtwo {
+list-style-type: none;
+margin-top: 1em;
+margin-bottom: 1em;
+clear: both;	
+}
+
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: #576ca7;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.1);
+    -moz-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    -webkit-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    -o-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    text-shadow: 0px -1px 1px rgba(000,000,000,0.2), 0px 1px 0px rgba(255,255,255,0.3);
+}
+
+navtwo a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #ffffff;
+    padding: 10px 20px;
+    background: #576ca7;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.1);
+    -moz-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    -webkit-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    -o-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    text-shadow: 0px -1px 1px rgba(000,000,000,0.2), 0px 1px 0px rgba(255,255,255,0.3);
+}
+
+
+nav a: link{
+background-color: #8F8182;
+color: #ffffff;	
+	
+}
+
+navtwo a: link{
+	background-color: #8F8182;
+color: #ffffff;
+}
+
+
+nav a: hover
+{
+background-color: #ffd800;
+	
+}
+
+navtwo a: hover{
+background-color: #ffd800;	
+}

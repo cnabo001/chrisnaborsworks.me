@@ -1,0 +1,59 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.logo {
+width: auto;
+height: auto;
+border-radius: 1em;	
+-webkit-animation: spins 2s linear infinite
+}
+@-webkit-keyframes spins{
+    from{-webkit-transform:rotate(0deg);}
+    to{-webkit-transform:rotate(360deg);}
+}
+
+.imageCenter {
+text-align:center;
+margin-top: 8px;
+margin-bottom: 0px;
+padding:0px;
+border-radius: 1em;	
+}
+.imageBanner {
+text-align:center;
+margin-top:8px;
+margin-bottom: 8px;
+padding:0px;
+border-radius: 1em;	
+}
+
+.smallImage {
+border: none;
+margin-top: 1em;
+float: left;
+border-radius: 5px;
+width: 5em;
+height: 5em;	
+}
+
+.medImage1{
+border: thin;
+margin-top: 1em;
+float:none;
+border-radius: 3px;
+width: 8 em;
+height: 8em;	
+}
+
+.backImage {
+   
+    color: #fffbe4;
+    margin-left:20px;
+    margin-right:20px;
+    text-shadow: 2px 2px 0 #000000;
+    -moz-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    -webkit-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    -o-box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+    box-shadow: 0px 0px 0px rgba(000,000,000,0), inset 0px 1px 0px rgba(255,255,255,0.7);
+}
+

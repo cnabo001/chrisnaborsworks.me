@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+a.button
+{
+	border-width: 4px;
+	border-style: solid;
+	border-radius: 50px;
+	boder-top-color:#DFDFDF;
+	border-right-color:#666;
+	border-bottom-color: #333;
+	border-left-color:#858585;
+	background-color:#306754;
+	color:#FFF;
+	font-weight: bold;
+	padding: 10px;
+	
+	transition-property: background-color;
+	transition-duration: 1s;
+	
+	
+	
+	-moz-transition-duration: 1s;
+	-webkit-transition-duration: 1s;
+	-o-transition-duration: 1s;
+	
+}
+a.button:hover
+{
+	background-color:#F00;
+}

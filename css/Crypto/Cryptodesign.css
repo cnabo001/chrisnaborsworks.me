@@ -1,0 +1,20 @@
+﻿#container{
+    width: 270px;
+    height: 90px;
+    border: 1px solid #000;
+    background-color: #2f2f2f;
+    overflow: hidden;
+    border-radius: 3px;
+    color:aliceblue;
+}
+
+#lastprice {
+    font-size: 30px;
+
+}
+
+#timedate{
+    color:aqua;
+    font-size:12px;
+
+}
