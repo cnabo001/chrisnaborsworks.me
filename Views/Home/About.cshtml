@@ -1,0 +1,218 @@
+﻿@{
+    ViewBag.Title = "About";
+}
+
+@section scripts{
+    <script>
+
+        var exp = false;
+        var exp2 = false;
+        var clikO = new Audio();
+        var clikf = new Audio();
+        clikO.src = '~/wavs/clickOn.wav';
+        clikf.src = '~/wavs/clickOff.wav';
+
+        document.getElementById('bt1').onclick = function () {
+            if (exp == false) {
+
+                document.getElementById('cl').style.height = "150px";
+                document.getElementById('ico').innerHTML = "&#9662;";
+                bt1.onmousedown = "clikO.play();"
+                exp = true;
+            }
+            else {
+                document.getElementById('cl').style.height = "0px";
+                document.getElementById('ico').innerHTML = "&#9652;";
+                bt1.onmousedown = "clikf.play();"
+                exp = false;
+            }
+        }
+
+        document.getElementById('bt2').onclick = function () {
+            if (exp == false) {
+
+                document.getElementById('cl2').style.height = "350px";
+                document.getElementById('ico2').innerHTML = "&#9662;";
+                this.onmousedown = "clikO.play();"
+                exp = true;
+            }
+            else {
+                document.getElementById('cl2').style.height = "0px";
+                document.getElementById('ico2').innerHTML = "&#9652;";
+                this.onmousedown = "clikf.play();"
+                exp = false;
+            }
+        }
+
+        document.getElementById('bt3').onclick = function () {
+            if (exp == false) {
+
+                document.getElementById('cl3').style.height = "350px";
+                document.getElementById('ico3').innerHTML = "&#9662;";
+                this.onmousedown = "clikO.play();"
+                exp = true;
+            }
+            else {
+                document.getElementById('cl3').style.height = "0px";
+                document.getElementById('ico3').innerHTML = "&#9652;";
+                this.onmousedown = "clikf.play();"
+                exp = false;
+            }
+        }
+
+    </script>}
+<div class="container-fluid">
+    <b>Professional Summary</b>
+    <p>
+        IT Professional dedicated to delivering excellent performance while expanding his knowledge and utilizing his non-IT skills, knowledge, and abilities to ensure customer satisfaction.
+    </p>
+    <br/>
+    <div class="row">
+
+        <button id="bt1" class="bt1">Skills<span id="ico">&#9662;</span></button>
+
+        <div id="cl">
+            
+            <p>
+                Microsoft Excel, Access, Word, Outlook, Technical Writing, User Documentation Creation,<br />
+                Computers hardware/Electronics maintenance, Programming: JAVA, HTML5, VB, SQL, C#, MVC, <br />
+                CSS, Bootstrap, JavaScript: JQuery, AnglarJS, XML/JSON formatting, CPU Operating system installation,<br />
+                Troubleshooting: Windows, UNIX. CPU builds/rebuilds, server maintenance and management, Reading Comprehension<br />
+                Mathematics
+            </p>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+
+        <button id="bt2" class="bt1">Education<span id="ico2">&#9662;</span></button>
+
+        <div id="cl2">
+            @*<button id="ex2">&#10006;</button>*@
+            <p>
+                <b>  DeVry University  &nbsp;&nbsp;    Columbus, OH</b>
+            <p>
+                Bachelor of Science: Computer Information Systems <br />
+                Concentration:  Database Management	Dec 2016 <br />
+                Database implications of efficient and effective transaction processing, including error handling,<br />
+                data validation, security, stored procedures and triggers, record locking, commit and rollback. <br />
+                Oracle and DB2 are the primary relational database management systems (RDBMS) used <br />
+                Also studied principles of networking, principles of cyber and physical security, A+, JAVA, and<br />
+                HTML5 with CSS JavaScript & ASP.net, Visual Basic, and C #programing languages.
+            </p>
+
+            <b> Technical Transportation of Hazardous materials &nbsp;&nbsp;  McAlester, OK </b>
+            <p>
+                Technical or Occupational Certificate	Oct 2006<br />
+                Credits Earned: 80 Continuing Education Unit Relevant Coursework, Licenses and<br />
+                Certifications: The Technical Transportation of Hazardous Material Course<br />
+                (AMMMO-62) presented by U.S. Army Defense Center in accordance with 49 CFR<br />
+                172.704, DOD 4500.9R Chapter 204, and AFMAN 24-204(I).
+            </p>
+
+            <b>
+                Missile and Munitions Center and School    &nbsp;&nbsp; Redstone Arsenal, AL
+            </b>
+            <p>
+                Technical or Occupational Certificate	Jan 2002 <br />
+                Credits Earned: 374 Continuing Education Unit<br />
+                Ammunition Supply Course
+            </p>
+            <b>Woodrow Wilson High School &nbsp;&nbsp;	Beckley, WV</b>
+            <p>
+                May 2001<br />
+               
+                College Prep Relevant Coursework, Licenses and Certifications: High School course
+            </p>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <button id="bt3" class="bt1">Work Experience <span id="ico3">&#9662;</span> </button>
+        <div id="cl3">
+            <p>
+                <b>
+                    Information Technologist &nbsp;&nbsp;	June 2017 - Present <br />
+                    State Of Ohio    &nbsp;&nbsp;	Columbus, OH
+                </b>
+            <p>
+                Responsible for troubleshooting client applications using remote session applications,<br />
+                installing applications and services, creating user documentation, creating SSRS reports<br />
+                with SQL server procedures, running queries to find data, alter data, create and alter tables<br />
+                and database schemas using SQL, creating web page modules in visual studio using MVC .Net structure<br />
+                (razor HTML, C#, CSS, jQuery, and bootstrap) Debugging Applications.
+            </p>
+
+            <p>
+                <b>
+                    Pick, Pack, Ship Duties  &nbsp;&nbsp; Feb 2017-June 2017 <br />
+                    CME Wire  &nbsp;&nbsp;	Columbus, OH
+                </b>
+            </p>
+
+            <p>
+                Scanning pick tickets with a RF scanner,<br />
+                pulling items from the warehouse using a sit down fork lift, shrink wrapping and<br />
+                banding shipments, and cutting wire using machinery.
+
+            </p>
+
+
+
+            <p>
+                <b>
+                    Inventory Control/Warehouse Lead &nbsp;&nbsp;	Apr 2015-Feb 2016<br />
+                    Land Air Logistics	 &nbsp;&nbsp; Columbus, OH
+
+                </b>
+            </p>
+
+            <p>
+                Responsible for allocating duties tofork lift operators. Communicating with Truck drivers<br />
+                and dispatching loads.&nbsp;Completing inventories importing and extracting data from Red Prairie WMS,<br />
+                ensuring that fork lift interfaces/RF Scanners are paired to PUTTY and WMS, and maintaining warehouse<br />
+                cleanliness.&nbsp;Operate sit down fork lift
+
+            </p>
+
+            <p>
+                <b>
+
+                    Pick, Pack, Ship Duties &nbsp;&nbsp;  Feb 2013-Apr 2015<br />
+                    Cummins Bridgeway  &nbsp;&nbsp;	  Grove City, OH
+
+                </b>
+            </p>
+
+            <p>
+                Scanning pick tickets with a RF scanner,pulling items from the warehouse using a Cherry Picker<br />
+                /sit down forklift/reach truck, packing items for shipment by boxing, shrink wrapping and<br />
+                banding shipments, and invoicing orders using OzLINK.
+
+            </p>
+
+
+            <p>
+                <b>
+                    Inventory Control/Purchasing Clerk	&nbsp;&nbsp; Sep 2008-Jul 2011<br />
+                    Ryder Logistics	  &nbsp;&nbsp; Suwannee GA
+
+                </b>
+            </p>
+
+            <p>
+                Gathering material requestorders from customers, pulling the materials needed according to what the <br />
+                store room had on hand.&nbsp;Distributing materials according to requested orders; doing a daily <br />
+                inventory of storeroom stock, purchasing supplies daily in order to replenish the storeroom. <br />
+                Create, record, and store storeroom transactions and inventory on Excel spreadsheets.
+
+            </p>
+
+
+            </p>
+
+        </div>
+    </div>
+
+
+</div>

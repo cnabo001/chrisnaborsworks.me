@@ -1,0 +1,89 @@
+﻿@model ChrisNaborsWorks.ViewModels.RegisterViewModel;
+
+@{
+    Layout = "~/Views/Shared/_AppLayout.cshtml";
+    ViewBag.Title = "Member registeration";
+}
+
+@section scripts
+    {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="row justify-content-between">
+    <div class="col-8">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Register</h4>
+                </div>
+            </div>
+            <form method="post" novalidate>
+                <div asp-validation-summary="ModelOnly" class="member"></div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="EmailAddress"></label>
+                            <input type="email" asp-for="EmailAddress" class="form-control" />
+                            <span asp-validation-for="EmailAddress" class="member"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="UserName"></label>
+                            <input asp-for="UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="member"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="Password"></label>
+                            <input type="password" asp-for="Password" class="form-control" />
+                            <span asp-validation-for="Password" class="member"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="ConfirmPassWord"></label>
+                            <input type="password" asp-for="ConfirmPassWord" class="form-control" />
+                            <span asp-validation-for="ConfirmPassWord" class="member"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="submit" value="Register" class="btn btn-success" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="container">
+            <div class="row">&nbsp;</div>
+            <div class="stickposition justify-content-end align-content-end">
+                <div class="coinmarketcap-currency-widget widget" data-currencyid="1" data-base="USD" data-ticker="true" data-rank="false"
+                     data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true"></div>
+            </div>
+
+        </div>
+    </div>
+</div>

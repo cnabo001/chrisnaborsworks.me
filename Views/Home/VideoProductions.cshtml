@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "VideoProductions";
+
+}
+
+
+<div class="container-fluid">
+    <div class="panel panel-default">
+        
+            <h2 class="panel-heading">VideoProductions</h2>
+       
+
+        <div class="panel panel-body">
+            <div class="row justify-content-center">
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+
+                    <button class="bt1" type="button" onclick="location.href='@Url.Action("VideoCommer", "Videos")'">
+                        <span class="glyphicon glyphicon-film"></span>&nbsp;Commercials
+                    </button>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+
+                    <button class="bt1" type="button" onclick="location.href='@Url.Action("MusicVideos", "Videos")'">
+                        <span class="glyphicon glyphicon-film"></span>&nbsp;Music Videos
+                    </button>
+                </div>
+
+                <div class="col-sm-4 col-md-4 col-lg-4">
+
+                    <button class="bt1" type="button" onclick="location.href='@Url.Action("Misc", "Videos")'">
+                        <span class="glyphicon glyphicon-film"></span>&nbsp;Misc. Videos
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

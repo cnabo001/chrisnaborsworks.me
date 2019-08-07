@@ -1,0 +1,68 @@
+﻿@model ChrisNaborsWorks.Models.Login;
+
+@{
+    Layout = "~/Views/Shared/_AppLayout.cshtml";
+    ViewBag.Title = "AppDev Log in";
+}
+
+@section scripts
+    {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"></script>
+
+}
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div class="container-fluid">
+    <div class="row justify-content-between">
+        <div class="col-8">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="">Log In</h4>
+                </div>
+            </div>
+            <form method="post" novalidate>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div asp-validation-summary="ModelOnly" class="member"></div>
+                        <div class="form-group">
+                            <label asp-for="UserName"></label>
+                            <input asp-for="UserName" class="form-control" />
+                            <span asp-validation-for="UserName" class="member"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label asp-for="PassWord"></label>
+                            <input type="password" asp-for="PassWord" class="form-control" />
+                            <span asp-validation-for="PassWord" class="member"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="submit" value="Login" class="btn btn-success" />
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-4">
+            <div class="container align-content-end">
+                <div class="row">&nbsp;</div>
+                <div class="stickposition justify-content-end ">
+                    <div class="coinmarketcap-currency-widget widget" data-currencyid="1" data-base="USD" data-ticker="true" data-rank="false"
+                         data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true"></div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Dapp Development - @ViewBag.Title</title>
+    <meta charset="utf-8" />
+
+    @*<link href="~/css/images.css" rel="stylesheet" type="text/css" />*@
+    <link href="~/css/nav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href="~/css/Transforms/transformCSS.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/iLab2.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/Animation/animationstyles.css" rel="stylesheet" type="text/css" />
+    <link href="~/css/bootstrap-grid.css" rel="stylesheet" />
+    <link href="~/css/Crypto/bootstrap.css" rel="stylesheet" />
+
+
+</head>
+
+
+<body>
+
+    <div class="container-fluid">
+        <header data-role="header">
+            <div class="row">
+                <div class="col-lg-1">
+                    DAPP DEV
+                    <img src="~/img/Gear.png" class="logo" />
+                </div>
+                <div class="col-lg-6 offset-2">
+                    <h2 class="text-center">DAPP DEVELOPMENT</h2>
+                </div>
+                <div class="col-lg-1">
+                    <div class="container">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div>
+                                <span id="UserName" class="member">MemberName:<br/>@User.Identity.Name</span>
+                            </div>
+
+                        }
+                        else
+                        {
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <a href='@Url.Action("Login", "Auth")'>
+                                        <input class="btn btn-info" type="button" value="Login" />
+                                    </a>
+                                </span>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-sm-1">
+                    <div class="container">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <a href='@Url.Action("Logout", "Auth")'>
+                                        <input class="btn btn-info" type="button" value="Logout" />
+                                    </a>
+                                </span>
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="input-group">
+                                <span class="input-group-btn">
+                                    <a href='@Url.Action("Register", "Auth")'>
+                                        <input class="btn btn-info" type="button" value="Register" />
+                                    </a>
+                                </span>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+            <!--<div class="col-md-1">&nbsp;</div>-->
+            <div class="row justify-content-center">
+                <div class="col-sm-5">
+                    <nav class="navtwo" data-role="navbar">
+                        <ul>
+                            <a asp-controller="App" asp-action="AppIndex">Home</a>
+                            <a asp-controller="Home" asp-action="About">About</a>
+                            <a asp-controller="Home" asp-action="Contact">Contact</a>
+                            <a asp-controller="App" asp-action="Markets">Markets</a>
+                        </ul>
+                    </nav>
+                </div>
+
+
+            </div>
+        </header>
+    </div>
+    <div class="container">
+        @RenderBody()
+    </div>
+    @*<div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>
+        <div class="row">&nbsp;</div>*@
+    <div class="container-fluid">
+        <div class="row">&nbsp;</div>
+        <div class="row justify-content-end align-content-end">
+
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-format="fluid"
+                 data-ad-layout-key="-f9+5v+4m-d8+7b"
+                 data-ad-client="ca-pub-6089507524284707"
+                 data-ad-slot="3402755593"></ins>
+        </div>
+    </div>
+    <div class="container-fluid no-gutters">
+        <footer data-role="footer">
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    Digi Intergrations LLC &copy; 2018 all rights reserved
+                </div>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
+@RenderSection("scripts", false)
+<script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="~/js/site.js"></script>
+<script src="~/js/Scripts/bootstrap.bundle.min.js"></script>
+<script src="~/js/Scripts/jquery-3.0.0.slim.min.js"></script>
+<script src="~/js/Scripts/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
+
+
