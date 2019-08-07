@@ -1,0 +1,11 @@
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Debug\netcoreapp2.0\ChrisNaborsWorks.csproj.CoreCompileInputs.cache
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Debug\netcoreapp2.0\ChrisNaborsWorks.AssemblyInfoInputs.cache
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Debug\netcoreapp2.0\ChrisNaborsWorks.AssemblyInfo.cs
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\bin\Debug\netcoreapp2.0\ChrisNaborsWorks.deps.json
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\bin\Debug\netcoreapp2.0\ChrisNaborsWorks.runtimeconfig.json
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\bin\Debug\netcoreapp2.0\ChrisNaborsWorks.runtimeconfig.dev.json
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\bin\Debug\netcoreapp2.0\ChrisNaborsWorks.dll
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\bin\Debug\netcoreapp2.0\ChrisNaborsWorks.pdb
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Debug\netcoreapp2.0\ChrisNaborsWorks.csprojAssemblyReference.cache
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Debug\netcoreapp2.0\ChrisNaborsWorks.dll
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Debug\netcoreapp2.0\ChrisNaborsWorks.pdb

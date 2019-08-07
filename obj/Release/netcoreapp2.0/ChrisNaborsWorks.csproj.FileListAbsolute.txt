@@ -1,0 +1,3 @@
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Release\netcoreapp2.0\ChrisNaborsWorks.csproj.CoreCompileInputs.cache
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Release\netcoreapp2.0\ChrisNaborsWorks.AssemblyInfoInputs.cache
+C:\Users\Veteran\Documents\ChrisNABORSWorks\ChrisNaborsWorks\ChrisNaborsWorks\obj\Release\netcoreapp2.0\ChrisNaborsWorks.AssemblyInfo.cs
