@@ -79,9 +79,9 @@ namespace ChrisNaborsWorks.Controllers
 		//	return View(data);
 		//}
 
-		[HttpPost]
+		[HttpPost("/api/contact")]
 		[ValidateAntiForgeryToken]
-		public IActionResult Contact(ContactModel mod, IFormFileCollection files)
+		public IActionResult Contact([fromBody]ContactModel mod, IFormFileCollection files)
 		{
 
 			if (ModelState.IsValid)
