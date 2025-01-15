@@ -5,7 +5,7 @@
 
   "ConnectionStrings": {
     "ContextConnection": "Data Source=Veteran-PC;Initial Catalog=DigiIntegrations;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;",
-    "1and1": "Data Source=db757258992.db.1and1.com; Initial Catalog=db757258992; User Id=dbo757258992; Password=$31Indust; Description=DigiIntegrations"
+    "1and1": "Data Source=db757258992.db.1and1.com; Initial Catalog=db757258992; User Id=dbo757258992; Password=ABC123; Description=DigiIntegrations"
   },
   "Keys": {
     "CoinMarketCap": "7781f661-8aee-4dc3-a6af-df8d6a9ff5d0",
